@@ -1,0 +1,18 @@
+x div #wrapper
+x	div #header
+x		h1
+x	div #nav
+x		ul
+x			li
+x				a
+x	div #main
+x		h2
+x		p	
+x		ul	
+x			li
+x				a
+x				p
+x					span .highlight
+x	div #footer
+x		p
+x			a

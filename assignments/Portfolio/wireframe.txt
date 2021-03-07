@@ -1,0 +1,53 @@
+#container
+	#header
+		h1, .black h2
+	#main
+		.top
+			.img block
+				img
+			.about block
+				.white h2
+				p
+				p
+				a
+		.bottom
+			.LaMode Block
+				.white h2
+				img
+				p
+				.white h2
+				.langImg	
+					1-8
+				a button
+			.Family Block
+				.white h2
+				img
+				p
+				.white h2
+				.langImg	
+					1-8
+				a button
+			.fiveEleven Block
+				.white h2
+				img
+				p
+				.white h2
+				.langImg	
+					1-9
+				a button
+
+	#footer
+		p
+		ul
+			li	
+				img
+				a
+			li	
+				img
+				a
+			li	
+				img
+				a
+			li	
+				img
+				a

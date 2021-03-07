@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color: orange;
+    width: 1000px;
+    height: 1300px;
+    margin: 0px auto;
+}
+#header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 0px 20px
+}
+h1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h2, p, a{
+    padding: 0px 0px 0px 10px;
+}
+.black{
+    color: black;
+}
+#main{
+    background-image: radial-gradient(dimgray,black);
+    height: 1190px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.top{
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.img{
+    background-color: dimgray;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
+    margin: 10px;
+}
+.img img{
+    height: 320px;
+}
+.about{
+    background-color: white;
+    height: 330px;
+    margin: 10px;
+}
+.white{
+    background-image: radial-gradient(dimgray, white);
+    color: white;
+    padding: 15px;
+    vertical-align: top;
+    margin: 0px;
+}
+.bottom{
+    height: 740px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.laMode{
+    background-color: pink;
+    height: 700px;
+    width: 300px;
+}
+.laMode img{
+    width: 300px;
+}
+.laMode a{
+    background-color: green;
+    border: solid black 1px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 85px;
+}
+.laMode p{
+    height: 200px;
+    width: 280px;
+}
+.lang{
+    display: flex;
+    flex-flow: row wrap;
+}
+.lang img{
+    height:50px;
+    width: 50px;
+    padding: 5px;
+}
+#footer{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 75px;
+    padding: 0px 20px
+}
+#footer img{
+    height: 20px;
+    width: 20px;
+}
+#footer ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+}
+#footer p{
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
